@@ -15,12 +15,13 @@
   "author": "AUSY",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^1.19.3"
+    "nodemon": "^1.19.4",
+    "typescript": "~3.7.5"
   },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "node-pre-gyp": "^0.14.0",
-    "sqlite3": "^4.1.0"
+    "kind-of": "^6.0.3",
+    "sqlite3": "^4.1.1"
   }
 }
