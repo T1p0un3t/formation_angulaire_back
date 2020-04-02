@@ -1,0 +1,9 @@
+  {
+    "userId": 3,
+    "userName": "Sarah",
+    "userAge": 28,
+    "userJob": "Développeur",
+    "userSkills": "Java,JavaScript,Angular",
+    "userRating": 3.5,
+    "userImage": "assets/images/sarah.jpg"
+  }

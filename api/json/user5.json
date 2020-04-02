@@ -1,0 +1,9 @@
+  {
+    "userId": 5,
+    "userName": "Vincent",
+    "userAge": 40,
+    "userJob": "Testeur",
+    "userSkills": "Junit,Selenium,Squash,Robot Framework",
+    "userRating": 3.9,
+    "userImage": "assets/images/vincent.jpg"
+  }

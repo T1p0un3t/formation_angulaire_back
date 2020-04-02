@@ -1,0 +1,9 @@
+  {
+    "userId": 2,
+    "userName": "Melinda",
+    "userAge": 35,
+    "userJob": "Chef de projet",
+    "userSkills": "SCRUM,Kanban",
+    "userRating": 4.7,
+    "userImage": "assets/images/melinda.jpg"
+  }

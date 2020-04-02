@@ -1,0 +1,9 @@
+  {
+    "userId": 1,
+    "userName": "Robert",
+    "userAge": 48,
+    "userJob": "Architecte",
+    "userSkills": "JEE,Java,SOA",
+    "userRating": 4.5,
+    "userImage": "assets/images/bob.jpg"
+  }

@@ -1,0 +1,9 @@
+  {
+    "userId": 4,
+    "userName": "Eric",
+    "userAge": 23,
+    "userJob": "Développeur",
+    "userSkills": "C++,.Net",
+    "userRating": 3.7,
+    "userImage": "assets/images/eric.jpg"
+  }
