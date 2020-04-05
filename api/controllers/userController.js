@@ -40,7 +40,7 @@ exports.read_a_user = function (req, res) {
   });
 
   setTimeout(function () {
-    if (isNaN(userId) || userId < 1 ) {
+    if (isNaN(userId) || userId < 1) {
       console.error('UserId ' + userId + ' is not in the database, max ID is ' + nbUsers);
       res.json({});
     } else {
@@ -233,5 +233,5 @@ exports.deleteUser = function (req, res) {
   var params = [];
 
   db.run('delete from user WHERE userId=' + userId);
-  res.code = 204;
+  res.status(204).send();
 }
