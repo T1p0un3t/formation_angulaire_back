@@ -8,6 +8,7 @@ module.exports = function (app) {
 
   app.route('/user/:userId')
     .get(user.read_a_user)
+    .delete(user.deleteUser)
     ;
 
   app.route('/newuser')
@@ -15,6 +16,4 @@ module.exports = function (app) {
 
   app.route('/jobs')
     .get(user.getJobss);
-
-  app.route('/user/:userId').delete(user.deleteUser);
 };
