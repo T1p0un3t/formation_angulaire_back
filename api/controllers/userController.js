@@ -203,9 +203,7 @@ exports.create_a_user = function (req, res) {
 };
 
 
-exports.getSkills = function (req, res) {
-
-  console.log('Get Skills !!!!!');
+exports.getJobss = function (req, res) {
 
   let skills = [{
     code: 'CDP',

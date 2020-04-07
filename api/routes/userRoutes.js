@@ -13,8 +13,8 @@ module.exports = function (app) {
   app.route('/newuser')
     .post(user.create_a_user);
 
-  app.route('/skills')
-    .get(user.getSkills);
+  app.route('/jobs')
+    .get(user.getJobss);
 
   app.route('/user/:userId').delete(user.deleteUser);
 };
