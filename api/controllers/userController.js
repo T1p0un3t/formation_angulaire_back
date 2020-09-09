@@ -51,10 +51,14 @@ exports.read_a_user = function (req, res) {
           res.json({});
         } else {
           console.log('ROWS : ' + rows.length);
-          rows.forEach(function (row) {
-            console.log("GET USER: " + JSON.stringify(row));
-            res.json(row);
-          });
+          if (rows.length == 0) {
+            res.json({});
+          } else {
+            rows.forEach(function (row) {
+              console.log("GET USER: " + JSON.stringify(row));
+              res.json(row);
+            });
+          }
         }
       });
     }
